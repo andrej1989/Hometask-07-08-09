@@ -56,7 +56,7 @@ header{
 .menu__link{
 	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
 	color: white;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 24px;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -70,6 +70,7 @@ header{
 	height: 400px;
 	background-color: rgba(0, 0, 0, 0.2);
 	padding-top: 88px;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	position: relative;
@@ -86,7 +87,7 @@ header{
 }
 .lorem__head{
 	color: #fefefe;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 36px;
@@ -95,7 +96,7 @@ header{
 }
 .lorem__subhead{
 	color: #edbfff;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 32px;
 	height: 42px;
 	overflow: hidden;
@@ -140,10 +141,7 @@ header{
 	width: 30px;
 	height: 42px;
 	background-image: url(../img/slide.png);
-	-webkit-transform: rotate(180deg);
-	   -moz-transform: rotate(180deg);
-	    -ms-transform: rotate(180deg);
-	        transform: rotate(180deg);
+	transform: rotate(180deg);
 	position: absolute;
 	top: 183px;
 	right: 15px;
@@ -176,11 +174,9 @@ header{
 	width: 11px;
 	height: 11px;
 	border-radius: 100%;
-	background-image: -moz-linear-gradient(bottom, #d4d4d4 0%, white 100%);
 	background-image: linear-gradient(to top, #d4d4d4 0%, white 100%);
 }
 .about-company{
-	background-image: -moz-linear-gradient(bottom, #322539 0%, #745083 100%);
 	background-image: linear-gradient(to top, #322539 0%, #745083 100%);
 	border-bottom: 1px solid #1d2f37;
 	font-size: 0px;
@@ -193,8 +189,7 @@ header{
 	margin-top: 80px;
 	margin-bottom: 70px;
 	padding-right: 44px;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 	padding-left: 64px;
 }
 .about:before{
@@ -222,7 +217,7 @@ header{
 	text-shadow: 0.5px 0.9px 0 #0f1518;
 	color: white;
 	padding-left:1px;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
@@ -245,7 +240,7 @@ header{
 .about__link{
 	text-shadow: 0.5px 0.9px 0 #0f1518;
 	color: white;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
@@ -269,8 +264,7 @@ header{
 	background-position: -30px 0px;
 }
 .about-music:before{
-	width: 30px;
-	background-position: -62px 0px;
+	background-position: -60px 0px;
 	left: 8px;
 }
 .upt{
@@ -284,15 +278,13 @@ header{
 .starts{
 	width: 46.875%;
 	padding-left: 24px;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 	position: relative;
 	float: left;
 }
 .start{
 	width: 100%;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 	display: block;
 	height: 272px;
 	padding: 32px 38px 0 40px;
@@ -312,7 +304,7 @@ header{
 }
 .start__head{
 	text-shadow: 0.5px 0.9px 0 white;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
@@ -352,7 +344,6 @@ header{
 	margin-left: 2px;
 	width: 10px;
 	height: 10px;
-	background-image: -moz-linear-gradient(bottom, #454545 0%, #6a6a6a 100%);
 	background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
 	border: 1px solid #454545;
 }
@@ -367,7 +358,7 @@ header{
 .update__head{
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
@@ -400,7 +391,7 @@ header{
 	height: 24px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans';
 	font-weight: 800;
 	font-size: 16px;
 	overflow: hidden;
@@ -409,7 +400,7 @@ header{
 	height: 21px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	font-weight: 400;
 	overflow: hidden;
@@ -421,7 +412,7 @@ header{
 	margin-top: -3px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
@@ -440,8 +431,7 @@ header{
 }
 .brands{
 	width: 100%;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .brands__logo{
 	width: 69px;
@@ -493,22 +483,21 @@ header{
 	display: inline-block;
 	vertical-align: top;
 	padding-right: 56px;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .categories{
+	float: right;
 	width: 29.37%;
 	font-size: 14px;
 	display: inline-block;
 	vertical-align: top;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .copy__head{
 	height: 36px;
 	text-shadow: 0 1px 0 white;
 	color: #454545;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 34px;
@@ -537,7 +526,7 @@ header{
 .categories__text{
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #787878;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -554,7 +543,7 @@ header{
 	height: 22px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
-	font-family: LeagueGothic, Arial, sans-serif;
+	font-family: LeagueGothic;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
@@ -584,7 +573,7 @@ footer{
 	margin-top: 43px;
 	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
 	color: white;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans';
 	font-size: 12px;
 	line-height: 34px;
 }
@@ -594,7 +583,7 @@ footer{
 
 
 	/*768px devices*/
-@media screen and (max-width: 1099px){
+@media (max-width: 1099px){
 header{
 	height: 795px;
 }
@@ -714,8 +703,7 @@ header{
 .update{
 	width: 47.3%;
 	padding-top: 33px;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .update__text{
 	width: 90%;
@@ -782,7 +770,7 @@ header{
 }
 
 /* 480px devices */
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
 header{
 	height: 545px;
 }
@@ -815,8 +803,7 @@ header{
 	margin: 0 auto;
 	display: block;
 	float:none;
-	-moz-box-sizing:border-box;
-	     box-sizing:border-box;
+	box-sizing:border-box;
 	position: absolute;
 	z-index: 2;
 }
@@ -824,8 +811,7 @@ header{
 	width: 246px;
 	height: 43px;
 	margin: 0;	
-	-moz-box-sizing:border-box;	
-	     box-sizing:border-box;
+	box-sizing:border-box;
 	display: none;
 }
 .menu__active{
@@ -957,8 +943,7 @@ header{
 .update{
 	float: none;
 	width:100%;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 	padding-left: 74px;
 	padding-right: 40px;
 	padding-top: 48px;
@@ -987,8 +972,7 @@ header{
 	overflow: hidden;
 	display: block;
 	margin: 0 auto;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .brands__logo{
 	vertical-align: top;
@@ -1067,7 +1051,7 @@ footer{
 }
 
 /* 320px device */
-@media screen and (max-width: 479px){
+@media (max-width: 479px){
 header{
 	height: 513px;
 }
@@ -1083,8 +1067,7 @@ header{
 .lorem{
 	width:90%;
 	padding-left: 33px;
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+	box-sizing: border-box;
 }
 .lorem__subhead{
 	font-size: 18px;
